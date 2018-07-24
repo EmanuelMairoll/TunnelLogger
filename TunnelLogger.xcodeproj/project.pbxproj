@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88317C5C21063821009CC672 /* Silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88317C5B21063821009CC672 /* Silence.mp3 */; };
+		88317C5E210638A7009CC672 /* Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88317C5D210638A7009CC672 /* Noise.mp3 */; };
+		8894419C2544437D006E0B3F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889441992544437D006E0B3F /* MainController.swift */; };
+		8894419D2544437D006E0B3F /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894419A2544437D006E0B3F /* RemoteControl.swift */; };
+		8894419E2544437D006E0B3F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8894419B2544437D006E0B3F /* Settings.bundle */; };
+		889441A12544437D006E0B3F /* Logfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889441A02544437D006E0B3F /* Logfile.swift */; };
 		88D4DC4A20FE3DD800116DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4DC4920FE3DD800116DBA /* AppDelegate.swift */; };
 		88D4DC4C20FE3DD900116DBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4DC4B20FE3DD900116DBA /* ViewController.swift */; };
-		88D4DC4F20FE3DD900116DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4DC4D20FE3DD900116DBA /* Main.storyboard */; };
 		88D4DC5120FE3DDA00116DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D4DC5020FE3DDA00116DBA /* Assets.xcassets */; };
-		88D4DC5420FE3DDA00116DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4DC5220FE3DDA00116DBA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88317C5B21063821009CC672 /* Silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Silence.mp3; sourceTree = "<group>"; };
+		88317C5D210638A7009CC672 /* Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Noise.mp3; sourceTree = "<group>"; };
+		889441992544437D006E0B3F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		8894419A2544437D006E0B3F /* RemoteControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		8894419B2544437D006E0B3F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		889441A02544437D006E0B3F /* Logfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logfile.swift; sourceTree = "<group>"; };
 		88D4DC4620FE3DD800116DBA /* TunnelLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TunnelLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D4DC4920FE3DD800116DBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88D4DC4B20FE3DD900116DBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88D4DC4E20FE3DD900116DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88D4DC5020FE3DDA00116DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88D4DC5320FE3DDA00116DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D4DC5520FE3DDA00116DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +48,7 @@
 			children = (
 				88D4DC4820FE3DD800116DBA /* TunnelLogger */,
 				88D4DC4720FE3DD800116DBA /* Products */,
+				88D65C4A210395D100F5D815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,25 @@
 		88D4DC4820FE3DD800116DBA /* TunnelLogger */ = {
 			isa = PBXGroup;
 			children = (
-				88D4DC4920FE3DD800116DBA /* AppDelegate.swift */,
-				88D4DC4B20FE3DD900116DBA /* ViewController.swift */,
-				88D4DC4D20FE3DD900116DBA /* Main.storyboard */,
-				88D4DC5020FE3DDA00116DBA /* Assets.xcassets */,
-				88D4DC5220FE3DDA00116DBA /* LaunchScreen.storyboard */,
+				88317C5D210638A7009CC672 /* Noise.mp3 */,
+				88317C5B21063821009CC672 /* Silence.mp3 */,
 				88D4DC5520FE3DDA00116DBA /* Info.plist */,
+				88D4DC4920FE3DD800116DBA /* AppDelegate.swift */,
+				889441992544437D006E0B3F /* MainController.swift */,
+				8894419A2544437D006E0B3F /* RemoteControl.swift */,
+				889441A02544437D006E0B3F /* Logfile.swift */,
+				8894419B2544437D006E0B3F /* Settings.bundle */,
+				88D4DC4B20FE3DD900116DBA /* ViewController.swift */,
+				88D4DC5020FE3DDA00116DBA /* Assets.xcassets */,
 			);
 			path = TunnelLogger;
+			sourceTree = "<group>";
+		};
+		88D65C4A210395D100F5D815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +116,18 @@
 				TargetAttributes = {
 					88D4DC4520FE3DD800116DBA = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,9 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D4DC5420FE3DDA00116DBA /* LaunchScreen.storyboard in Resources */,
+				88317C5E210638A7009CC672 /* Noise.mp3 in Resources */,
+				88317C5C21063821009CC672 /* Silence.mp3 in Resources */,
+				8894419E2544437D006E0B3F /* Settings.bundle in Resources */,
 				88D4DC5120FE3DDA00116DBA /* Assets.xcassets in Resources */,
-				88D4DC4F20FE3DD900116DBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +170,13 @@
 			files = (
 				88D4DC4C20FE3DD900116DBA /* ViewController.swift in Sources */,
 				88D4DC4A20FE3DD800116DBA /* AppDelegate.swift in Sources */,
+				889441A12544437D006E0B3F /* Logfile.swift in Sources */,
+				8894419C2544437D006E0B3F /* MainController.swift in Sources */,
+				8894419D2544437D006E0B3F /* RemoteControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		88D4DC4D20FE3DD900116DBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88D4DC4E20FE3DD900116DBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		88D4DC5220FE3DDA00116DBA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88D4DC5320FE3DDA00116DBA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		88D4DC5620FE3DDA00116DBA /* Debug */ = {
@@ -283,13 +300,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52M2HV7QQ7;
 				INFOPLIST_FILE = TunnelLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = emanuelmairoll.TunnelLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,13 +319,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52M2HV7QQ7;
 				INFOPLIST_FILE = TunnelLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = emanuelmairoll.TunnelLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
